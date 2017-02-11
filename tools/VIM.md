@@ -2,6 +2,7 @@
 A brief cheatsheet for the VI text editor  
 If not indicated otherwise, these commands are executed from within "command mode"  
 
+If total newbie, just type "vimtutor" in bash and follow instructions  
 ## BASICS
 
     :		go to command mode
