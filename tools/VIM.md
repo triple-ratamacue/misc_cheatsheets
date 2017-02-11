@@ -114,21 +114,23 @@ Use arrow keys or h,j,k,l to navigate
     
 **Comment/Uncomment**
 
-Comment:  
-1. Go to first line of block you'd like to comment out
-2. Press *CTRL+v* to enter visual mode
-3. Use arrow keys to move down until last line of block 
-4. Press *Shift+i* to enter insert mode
-5. Type comment char, e.g. *#*
-6. Press *ESC*, hang on for a sec, and enjoy the result
+Comment:    
+  
+    1. Go to first line of block you'd like to comment out  
+    2. Press *CTRL+v* to enter visual mode  
+    3. Use arrow keys to move down until last line of block   
+    4. Press *Shift+i* to enter insert mode  
+    5. Type comment char, e.g. *#*  
+    6. Press *ESC*, hang on for a sec, and enjoy the result  
 
-Uncomment:  
-1. Go to first line of block to uncomment
-2. Press *CTRL+v* to enter visual mode
-3. Use arrow keys to select lines you'd like to change
-4. Press *Shift+i* to enter insert mode
-5. Type *d* or *x* to delete
-6. Enjoy
+Uncomment:    
+    
+    1. Go to first line of block to uncomment  
+    2. Press *CTRL+v* to enter visual mode  
+    3. Use arrow keys to select lines you'd like to change  
+    4. Press *Shift+i* to enter insert mode  
+    5. Type *d* or *x* to delete  
+    6. Enjoy  
 
 
    
