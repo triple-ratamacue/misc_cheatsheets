@@ -1,6 +1,6 @@
 # TMUX - A terminal multiplexer
 
-Tmux is a great tool that allows you to create terminal sessions from which you can disconnect without cancelling the processes that are running in it. Really useful if working remotely via ssh, for instance.  
+[Tmux](https://tmux.github.io/) is a great tool that allows you to create terminal sessions from which you can disconnect without cancelling the processes that are running in it. Really useful if working remotely via ssh, for instance.  
 
 ## Sessions
 A new tmux session can be created via 
