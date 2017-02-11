@@ -1,2 +1,3 @@
 # cheatsheets
-A collection of cheatsheets for various tools and programming languages
+Here, I collect cheatsheets I wrote for various tools and programming languages.
+
