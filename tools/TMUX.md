@@ -40,4 +40,28 @@ and one of the following keys:
     p	switch to previous window (cycles through)  
     l	switch to previously selected window (not cycling through)  
     0-9 switch to window 0 to 1  
+    '	prompt for a window index 
+    w	choose window from interactive menue
 
+
+## Panes
+It's also possible to have multiple panes within one window!  
+Again, press 
+
+    CTRL+b  
+
+and one of the following keys:
+
+    %	split pane into left and right  
+    "	split pane into top and bottom 
+    !   break current pane out and into new window  
+    x	kill current pane  
+       
+    arrow	switch to left/right/top/bottom pane  
+    q 		display pane indices
+    t		show time (exit with q)  
+    CTRL+arrow  change size of curent pane  
+    {,}		swap current pane with next/previous pane
+    
+    
+   
