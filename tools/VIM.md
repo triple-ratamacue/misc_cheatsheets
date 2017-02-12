@@ -12,6 +12,7 @@ If total newbie, just type "vimtutor" in bash and follow instructions
 * [PANES](#panes)
 * [NAVIGATION](#navigation)
 * [SEARCH](#search)
+* [SELECT](#select)
 * [REPLACE](#replace)
 * [EDITING](#editing)
 
@@ -96,13 +97,21 @@ Use arrow keys or h,j,k,l to navigate
     n		move cursor to next occurence of foo  
     N 		move cursor to previous occurence of foo  
 
+## SELECT
+
+    
+    v		visual 
+    Shift+v	visual line
+    Ctrl+v	visual block
+    
 
 ## REPLACE
     
    
     **replace strings**  
-    s/foo/bar/g	replace foo by bar in current line  
-    %above 	replace foo by bar in whole file 
+    s/foo/bar/g		replace foo by bar in current line  
+    %s/foo/bar/g	replace foo by bar in whole file 
+    %s/\%Vfoo/bar/g	replace foo by bar in selection (with Shift+V selected)
     
 
 ##  EDITING
