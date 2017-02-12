@@ -25,7 +25,7 @@ If total newbie, just type "vimtutor" in bash and follow instructions
     :edit NAME  open file 
     :e CTRL+D	show folder contents
     :Explore	open file explorer 
-
+    
 
 ## PANES 
   
@@ -43,6 +43,14 @@ Use arrow keys or h,j,k,l to navigate
     G		move to last line of file  
     :NUMBER	move to line NUMBER  
         
+**Buffers**
+    
+    Convenient way to navigate between recently opened files.
+       
+    :b 1	open file with index 1
+    :ls		list recently opened files with indices j
+    
+    
 **Screen**  
     
     H		move to top of screen  
@@ -132,6 +140,19 @@ Uncomment:
     5. Type *d* or *x* to delete  
     6. Enjoy  
 
+**Fold, Unfold**
+  
+Make sure to add
+    
+    set foldmethod=indent
+    set foldlevel=99
 
+to your .vimrc
+
+    za		fold/unfold current line
+    zo		unfold one under cursor
+    zO		unfold all under cursor
+    zc		fold one under cursor
+    zC		fold all under cursor
    
 
