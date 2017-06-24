@@ -33,7 +33,7 @@ Here are the most important ones:
 This line copies everything new from SRC to DEST and deletes files in DEST that don't exist in SRC anymore
 ```bash
 rsync -av --delete /SRC/ /DEST/
-```bash
+```
 
 ## Example: Local to Remote
 Imagine you're the user "banajoe" and the remote IP is 21.21.21.0
