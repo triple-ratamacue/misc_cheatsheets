@@ -18,7 +18,8 @@ rsync has millions of arguments to adapt its functionality to every possible use
 Here are the most important ones:
 ```bash
 -a              # archive mode: recurse into directories, preserve permissions, symlinks and time stamps  
--v              # dry-run. "Simulate" the file transfer. Good practice to monitor changes before you apply them  
+-n              # dry-run. "Simulate" the file transfer. Good practice to monitor changes before you apply them  
+-v              # verbose mode
 -u              # ignore files in dest that have newer time stamp. You only want to apply changes in src to dest!  
 -P              # short for --partial and --progress. Allows you to resume interrupted transfers and monitor individual file transfer progress
 -h              # make output human readable (e.g. in Kb, Mb etc)  
@@ -53,7 +54,7 @@ cat logfile.txt | more
 ```
 3. If satisfied with everything, perform actual file-transfer
 ```bash
-rsync -navuPzh --delete -e ssh /SRC/ banajoe@21.21.21.0:/DEST/ > logfile.txt
+rsync -avuPzh --delete -e ssh /SRC/ banajoe@21.21.21.0:/DEST/ > logfile.txt
 ```
 
 
